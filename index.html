@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hands of Sympathy</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!--Libraries stylesheet-->
+
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!--Icon stylesheet-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!--stylesheet-->
+    <link rel="stylesheet" href="style.css">
+    
+
+    <!-- Include Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#" style="color: white">Hands of Sympathy</a>
+    <div class="collapse navbar-collapse justify-content-center">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color:white">About us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: white;">Why it works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color:white;">For NHS</a>
+            </li>
+        </ul>
+    </div>
+    <div class="ml-auto d-flex align-items-center">
+        <button class="btn btn-book" data-toggle="modal" data-target="#requestCallModal">
+            Request a call
+        </button>
+        <div class="btn-arrow ml-2">→</div>
+    </div>
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="requestCallModal" tabindex="-1" role="dialog" aria-labelledby="requestCallModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="requestCallModalLabel">Request a Call</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="firstName">First Name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="Enter your first name">
+                    </div>
+                    <div class="form-group">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="Enter your last name">
+                    </div>
+                    <div class="form-group">
+                        <label for="contactDetails">Contact Details</label>
+                        <input type="text" class="form-control" id="contactDetails" placeholder="Enter your contact details">
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Home Page Content -->
+    <div class="container content-container">
+        <div class="row">
+            <!-- Left Side Content aligned to the far left -->
+            <div class="col-md-8 left-content d-flex align-items-start wow fadeInUp" data-wow-delay="0.5s"> <!-- Adjusted column size to 8 -->
+                <div class="text-container"> <!-- Added class for custom text width -->
+                    <h1>SUPPORT WITH YOUR MENTAL HEALTH CONCERNS</h1>
+                    <h6 style="margin-top: 20px;">A service focusing on delivery interventions to support individuals who have mental health concerns. 
+                    </h6>
+                </div>
+            </div>
+            <!-- Right Side Image aligned to the far right -->
+            <div class="col-md-4 right-content d-flex justify-content-end"> 
+                <img src="https://images.unsplash.com/photo-1607748862156-7c548e7e98f4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Mental Health Support">
+            </div>
+        </div>
+    </div>
+
+   
+   
+    <!-- Centered Button Section -->
+    <div class="container d-flex flex-column justify-content-center align-items-center" style="margin-top: 90px;">
+        <!-- Two buttons Content -->
+        
+        <button class="btn btn-book">
+            Book 1:1 therapy intervention
+        </button>
+        <button class="btn btn-book" style="margin-top: 50px;">
+            Family workshops.
+        </button>
+    </div>
+
+    <!-- card sectioncontent-->
+
+
+    <!-- New Section with Left and Right Content -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Left Side Content -->
+            <div class="col-md-6 d-flex flex-column justify-content-center  wow fadeInUp" data-wow-delay="0.5s" style="margin-top: 20px;">
+                <h2>we offer  a safe and confidential space for you to talk and process your concerns we will listen and help you identify coping strategies and other helpful ways of tackling your concerns.</h2>
+                <p>We pay close attention to your presenting needs and help map our interventions onto your particular concerns </p>
+                <button class="btn btn-book" style="width: 55%;">How Hands of Sympathy works</button>
+            </div>
+            <!-- Right Side Cards -->
+            <div class="col-md-6">
+                <!-- Top Card -->
+                <div class="card custom-card mb-3" style="background-color: #E8D8C5;">
+                    <div class="card-body">
+                        <h5 class="card-title">Top Card</h5>
+                        <p class="card-text">Our service offers a range of targeted and specialized modalities for psychological difficulties
+                            including stress, depression, Complex PTSD, PTSD stemming from childhood adverse
+                            conditions, various anxiety disorders and low self-esteem.</p>
+                    </div>
+                </div>
+                <!-- Middle Card -->
+                <div class="card custom-card mb-3" style="background-color: #E8D8C5;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: #7F1734;">Middle Card</h5>
+                        <p class="card-text">We complete Neurodevelopmental Assessments using the assessment tools such as
+                            ADOS-2, ADIR, CAT-Q, Coventry Grid and other psychometric tests if required.
+                            Which may be useful in identifying traits that align with the diagnosis of Autistic Spectrum
+                            Condition.</p>
+                    </div>
+                </div>
+                <!-- Bottom Card -->
+                <div class="card custom-card" style="background-color: #E8D8C5;">
+                    <div class="card-body">
+                        <h5 class="card-title">Bottom Card</h5>
+                        <p class="card-text">We use a number of psychometric tests to ensure that we capture all the necessary traits.
+                             This will allow further exploration to determine if the diagnosis will be enough to describe the difficulties the young person presents with.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!-- Container for images -->
+<div class="image-section">
+    <div class="image-container">
+        <img src="https://images.unsplash.com/photo-1631898011050-48e13c158fe2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Left Image" class="left-image wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+        <img src="https://images.unsplash.com/photo-1530047139082-5435ca3c4614?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Right Image" class="right-image wow animate__fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+    </div>
+</div>
+
+
+    <!-- Speek Programme Section -->
+    <!-- Speek Programme Section -->
+<div class="container my-5">
+    <h2 class="text-center mb-5  wow fadeInUp" data-wow-delay="0.5s" style="color: white;">Hands Of Sympathy Programme:</h2>
+    
+  <!-- Card Container -->
+<div class="d-flex flex-column align-items-center">
+
+    <!-- Card 1 -->
+    <div class="card mb-4" style="width: 100%; max-width: 600px; border-radius: 10px; background-color: #E8D8C5;">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="number" style="font-weight: bold; font-size: 24px; margin-right: 10px;">1.</div>
+                <h5 class="card-title mb-0" style="color: #7F1734;">Support for families experiencing difficulties/challenges.</h5>
+            </div>
+            <button class="btn btn-link text-decoration-none" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1" style="font-size: 24px; color: #7F1734; text-decoration: none;">+</button>
+        </div>
+        <div id="collapse1" class="collapse">
+            <div class="card-body">
+                <!-- Collapsible content for card 1 -->
+                <ul class="custom-list">
+                    <li class="list-item"  style="color:#7F1734;">We work with families from all communities who don’t acknowledge or believe in mental health difficulties.</li>
+                    <li class="list-item"style="color:#7F1734;">Working with families from the first-generation ethnic minority communities who are not fully conversant with the UK mental health services.</li>
+                    <li class="list-item"style="color:#7F1734;">Families who lack insight into their mental health needs as they struggle to identify needs of the children under their care.</li>
+                    <li class="list-item"style="color:#7F1734;">Giving insight into systemic issues that may impact the emotional wellbeing of young people.</li>
+                    <li class="list-item"style="color:#7F1734;">Signposting them to other relevant services.</li>
+                    <li class="list-item"style="color:#7F1734;">Offering emotional and practical support, raising parents’ confidence in mental health services.</li>
+                    <li class="list-item"style="color:#7F1734;">Violence reduction.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card mb-4" style="width: 100%; max-width: 600px; border-radius: 10px; background-color: #E8D8C5;">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="number" style="font-weight: bold; font-size: 24px; margin-right: 10px;">2.</div>
+                <h5 class="card-title mb-0">We aim to reduce isolation and improve family relationships by offering relevant support.</h5>
+            </div>
+            <button class="btn btn-link text-decoration-none" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2" style="font-size: 24px; color: #7F1734; text-decoration: none;">+</button>
+        </div>
+        <div id="collapse2" class="collapse">
+            <div class="card-body">
+                <!-- Collapsible content for card 2 -->
+                <ul class="custom-list">
+                    <li class="list-item"  style="color:#7F1734;">1:1 support for young people.</li>
+                    <li class="list-item" style="color:#7F1734;">Support for young people at risk of school exclusion.</li>
+                    <li class="list-item" style="color:#7F1734;">Emotional regulation.</li>
+                    <li class="list-item" style="color:#7F1734;">Anger management program.</li>
+                    <li class="list-item" style="color:#7F1734;">Stress management.</li>
+                    <li class="list-item" style="color:#7F1734;">Family workshops.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card mb-4" style="width: 100%; max-width: 600px; border-radius: 10px; background-color: #E8D8C5;">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="number" style="font-weight: bold; font-size: 24px; margin-right: 10px;">3.</div>
+                <h5 class="card-title mb-0">Our aim is to achieve the following outcomes for young people:</h5>
+            </div>
+            <button class="btn btn-link text-decoration-none" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3" style="font-size: 24px; color: #7F1734; text-decoration: none;">+</button>
+        </div>
+        <div id="collapse3" class="collapse">
+            <div class="card-body">
+                <!-- Collapsible content for card 3 -->
+                <ul class="custom-list">
+                    <li class="list-item" style="color:#7F1734;">Increased confidence.</li>
+                    <li class="list-item"  style="color:#7F1734;">Increased self-esteem.</li>
+                    <li class="list-item" style="color:#7F1734;">Emotional resilience.</li>
+                    <li class="list-item" style="color:#7F1734;">Decision-making skills.</li>
+                    <li class="list-item" style="color:#7F1734;">Insight into their difficulties and ways of maintaining psychological wellbeing.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- Card 4 -->
+    <div class="card mb-4" style="width: 100%; max-width: 600px; border-radius: 10px; background-color: #E8D8C5;">
+        <div class="card-header d-flex justify-content-between align-items-center">
+            <div class="d-flex align-items-center">
+                <div class="number" style="font-weight: bold; font-size: 24px; margin-right: 10px;">4.</div>
+                <h5 class="card-title mb-0">Our service criteria.</h5>
+            </div>
+            <button class="btn btn-link text-decoration-none" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4" style="font-size: 24px; color: #7F1734; text-decoration: none;">+</button>
+        </div>
+        <div id="collapse4" class="collapse">
+            <div class="card-body">
+                <!-- Collapsible content for card 4 -->
+                <ul class="custom-list">
+                    <li class="list-item" style="color:#7F1734;">We are a tier two getting help service.</li>
+                    <li class="list-item" style="color:#7F1734;">Inclusion criteria: Stress, Depression, Complex PTSD, PTSD stemming from childhood adverse conditions.</li>
+                    <li class="list-item" style="color:#7F1734;">Various anxiety disorders: panic, social anxiety, OCD.</li>
+                    <li class="list-item" style="color:#7F1734;">Low self-esteem.</li>
+                    <li class="list-item" style="color:#7F1734;">Emotional regulation difficulties and difficulties in managing anger.</li>
+                    <li class="list-item" style="color:#7F1734;">Ranging from 5 years upwards.</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    <!-- Centered Button -->
+    <div class="d-flex justify-content-center mt-5">
+        <button class="btn btn-book">Learn How Hands Of Sympathy Works</button>
+    </div>
+</div>
+
+
+
+<!-- Footer Section -->
+<footer class="footer-section  text-white py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Left Content Section -->
+            <div class="col-md-4" >
+                <h5 class="footer-heading">Hands of Sympathy is not a crisis service.</h5>
+                <p>If you or anyone you know are in crisis, having thoughts of suicide, or need immediate mental health support, here's what you can do:</p>
+                <ul class="list-unstyled">
+                    <li>Call the Samaritans 24hr helpline: <strong>112 option 2</strong></li>
+                    <li>If you'd prefer not to call, text <strong>SHOUT</strong> to 85258</li>
+                    <li>Present yourself to your nearest A&amp;E.</li>
+                </ul>
+            </div>
+
+            <!-- Middle Content Section (Form) -->
+            <div class="col-md-4" >
+                <h5 class="footer-heading">Get on the list</h5>
+                <p>We send a monthly newsletter with free events, app updates and the latest on all things Speek.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name Surname</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <button type="submit" class="btn btn-book mt-3">Submit</button>
+                </form>
+            </div>
+
+            <!-- Right Content Section (Social Media) -->
+            <div class="col-md-4">
+                <h5 class="footer-heading">Follow us</h5>
+                <ul class="list-unstyled social-links">
+                    <li><a href="#" class="text-white"><i class="fab fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#" class="text-white"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+                    <li><a href="#" class="text-white"><i class="fab fa-twitter"></i> Twitter</a></li>
+                    <li><a href="#" class="text-white"><i class="fab fa-facebook"></i> Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Copyright Section -->
+        <div class="row mt-4">
+            <div class="col text-center">
+                <p class="mb-0">&copy; 2024 Hands of Sympathy. All Rights Reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Bootstrap JS, Popper.js, and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/ScrollTrigger.min.js"></script>
+
+    <!-- Additional Libraries -->
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <script>
+        // Initialize WOW.js
+        new WOW().init();
+
+        // GSAP animation for both images
+        gsap.registerPlugin(ScrollTrigger);
+
+        // Animation for the left image
+        gsap.to(".left-image", {
+            y: -120, // Adjust the amount to move the image up or down during scrolling
+            scrollTrigger: {
+                trigger: ".image-section", // The section where scrolling should affect the image
+                start: "top center", // Start animation when the top of the section reaches the center of the viewport
+                end: "bottom center", // End animation when the bottom of the section reaches the center of the viewport
+                scrub: 1, // Smoothly scrubs the animation linked to scroll
+            }
+        });
+
+
+    </script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+<script>
+    // Initialize Swiper
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 'auto',
+        spaceBetween: 15,
+        loop: true,
+        grabCursor: true,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+    });
+
+    // Toggle play/pause functionality
+    function togglePlayPause(card) {
+        const video = card.querySelector('.video');
+        const playIcon = card.querySelector('.play-icon');
+
+        if (video.paused) {
+            video.play();
+            playIcon.style.display = 'none';
+        } else {
+            video.pause();
+            playIcon.style.display = 'block';
+        }
+    }
+</script>
+    
+
+</body>
+</html>

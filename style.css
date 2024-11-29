@@ -1,0 +1,331 @@
+body {
+    background-color: #7F1734; /* Claret background color */
+    color: white;
+}
+
+.navbar {
+    background-color: transparent;
+    margin-top: 20px; /* Add margin to the top */
+    color:white;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 28px; /* Increase the font size */
+    color: white; /* Ensure the text color contrasts well */
+    font-family: 'Arial', sans-serif; /* Change to a more prominent font */
+    letter-spacing: 1px; /* Optional: Add some space between letters */
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    border: 1px solid white; /* Single border around all elements */
+    border-radius: 26px;
+    padding: 5px 15px;
+    width: 11cm; /* Rounded border width set to 11cm */
+    color: white;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 10px;
+    text-transform: uppercase; /* Make text uppercase */
+    color: white;
+}
+
+.btn-book {
+    background-color: #E8D8C5;
+    color:  #7F1734;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-right: 10px;
+    text-transform: uppercase; /* Make button text uppercase */
+    height: 42px; /* Set a specific height for consistency */
+    display: flex;
+    align-items: center; /* Center text vertically */
+    padding: 0 15px; /* Add horizontal padding */
+}
+
+.btn-arrow {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #E8D8C5; /* Set background color to white */
+    border: 2px solid #7F1734;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #7F1734; /* Change arrow color to match text */
+}
+
+.content-container {
+    margin-top: 3.7cm; /* Home page content positioned 3.7cm away from navbar */
+}
+
+.left-content {
+    padding-left: 0; /* Set left padding to 0 to push text further left */
+    margin-left: -1cm; /* Push text left by 4cm */
+    margin-top: 80px; /* Add margin-top to push the text down */
+    font-size: 18px;
+    text-align: left; /* Align text to the left */
+}
+
+.right-content {
+    text-align: right; /* Align text to the right */
+}
+
+.row {
+    justify-content: space-between; /* Distribute space between left and right content */
+}
+
+.right-content img {
+    max-width: 100%;
+    height: 500px; /* Keep increased height for the image */
+    object-fit: cover; /* Ensure image covers the container */
+    border-radius: 10px; /* Optional: rounded corners for the image */
+    margin-right: 40px; /* Optional: increase right margin for spacing */
+}
+
+/* Custom CSS to adjust the width of the text area */
+.text-container {
+    max-width: 100%; /* Allow text to stretch fully */
+}
+
+/* Style for the h1 element */
+h1 {
+    font-size: 52px; /* Keep the font size large */
+    margin: 0; /* Remove default margins */
+}
+
+/* Button section styles */
+.button-section {
+    margin-top: 60px; /* Space between the homepage content and buttons */
+    text-align: center;
+}
+
+.button-section .btn {
+    display: block;
+    width: auto;
+    margin-bottom: 20px; /* Space between the buttons */
+    color: white;
+    background-color: #E8D8C5;
+    font-weight: bold;
+}
+
+
+.custom-card {
+border: none; /* Remove border for cleaner look */
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+border-radius: 20px; /* Match button's rounded corners */
+overflow: hidden; /* Ensure content doesn't overflow rounded corners */
+background-color: #ffffff; /* White background for contrast */
+color: #7F1734; /* Text color for better readability */
+
+}
+
+/* Custom styles for list items inside collapsible sections */
+.custom-list {
+    margin-top: 20px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.custom-list .list-item {
+    position: relative;
+    padding-left: 30px; /* Add space for custom bullet */
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+.custom-list .list-item:before {
+    content: '\2022'; /* Unicode bullet */
+    position: absolute;
+    left: 10px;
+    top: 0;
+    font-size: 30px;
+    color: #7F1734; /* Customize the color of the bullet */
+}
+
+/* Styling the collapsible content */
+.card-body {
+    padding: 25px 35px;
+    font-size: 16px; /* Make text more readable */
+}
+
+.card-body p {
+    margin-bottom: 15px;
+}
+
+/* Making the collapsible text more visually appealing */
+.card-body ul {
+    margin-top: 10px;
+}
+
+/* Increase the space between each item in the list */
+.custom-list .list-item {
+    margin-bottom: 10px;
+}
+
+.card-title {
+color: #7F1734; /* Keep card title color consistent */
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 100vh; /* Full height */
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;  /* Adjust slide width */
+}
+
+.swiper-container {
+    width: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;  /* Smaller width for thumbnails */
+}
+
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.video {
+    width: 100%;
+    height: 200px;  /* Smaller video height */
+    object-fit: cover;
+}
+
+.play-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+    color: white;
+    display: block;
+}
+
+.video-card-bottom {
+    background-color: white;       /* White background for text */
+    padding: 10px;
+    border-radius: 0 0 10px 10px;  /* Rounded corners on bottom */
+    text-align: center;
+}
+
+.video-card-bottom h6 {
+    font-size: 14px;
+    margin: 0;
+    color: #800000;  /* Claret color for text */
+}
+
+.video-card-bottom p {
+    font-size: 12px;
+    color: #800000;  /* Claret color for text */
+}
+
+/* Footer styles */
+.footer-section {
+background-color: black; /* Dark background color */
+color: #7F1734; /* White text color */
+}
+
+.footer-heading {
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 15px;
+}
+
+.footer-section .form-control {
+background-color: #444444; /* Slightly lighter background for form inputs */
+border: none;
+color: #7F1734;
+}
+
+.footer-section .form-control::placeholder {
+color: white;
+}
+
+.footer-section .btn-book {
+background-color: #7F1734; /* Use the specified button color */
+color: #ffffff;
+}
+
+.social-links li {
+margin-bottom: 10px;
+}
+
+.social-links a {
+color: #ffffff; /* White color for social media links */
+text-decoration: none;
+}
+
+.social-links a:hover {
+text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+.footer-section .col-md-4 {
+    margin-bottom: 30px; /* Add spacing between columns on smaller screens */
+}
+}
+
+
+/* Centering container and images */
+.image-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 170vh; /* Ensure the container takes full viewport height */
+    padding: 20px; /* Optional padding */
+}
+
+.image-container {
+    position: relative; /* Enable absolute positioning of children */
+    display: flex;
+    justify-content: center;
+    width: max-content; /* Adjust to the content width */
+    margin-left: 290px;
+}
+
+/* Positioning images */
+.left-image {
+    position: absolute; /* Position it on top of the right image */
+    left: -350px; /* Adjust left value to overlap the right image */
+    top: 0; /* Align at the top */
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+    height: 650px;
+    object-fit: cover;
+    border-radius: 26px;
+    z-index: 2; /* Ensure it stays on top of the right image */
+}
+
+.right-image {
+    position: relative; /* Keep it in normal flow */
+    width: 100%;
+    max-width: 400px; /* Adjust max-width as needed */
+    height: 650px;
+    object-fit: cover;
+    border-radius: 26px;
+    z-index: 1; /* Keep it behind the left image */
+}
